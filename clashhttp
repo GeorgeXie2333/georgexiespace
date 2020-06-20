@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 Proxy:
-  - {name: RU, server: ru2.ghelper.net, port: 443, type: https, tls: true}
-  - {name: SG, server: sg2.ghelper.net, port: 443, type: https, tls: true}
-  - {name: DE, server: de.ghelper.net, port: 443, type: https, tls: true}
-  - {name: HKT, server: hkt6.ghelper.net, port: 3389, type: https, tls: true}
-  - {name: HKBN, server: hkbn2.ghelper.net, port: 443, type: https, tls: true}
-  - {name: JP, server: jp4.ghelper.net, port: 443, type: https, tls: true}
+  - {name: RU, server: ru2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: SG, server: sg2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: DE, server: de.ghelper.net, port: 443, type: http, tls: true}
+  - {name: HKT, server: hkt6.ghelper.net, port: 3389, type: http, tls: true}
+  - {name: HKBN, server: hkbn2.ghelper.net, port: 443, type: http, tls: true}
+  - {name: JP, server: jp4.ghelper.net, port: 443, type: http, tls: true}
   - {name: HKCM, server: hkcm.ghelper.net, port: 443, type: http, tls: true}
   - {name: TW, server: tw3.ghelper.net, port: 443, type: http, tls: true}
   - {name: CA1, server: ca.epicbrowser.net, port: 8888, type: http, tls: true}
